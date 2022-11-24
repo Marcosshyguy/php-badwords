@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-<h1> <?php echo str_replace($badword, "***", $text) ?> </h1>
+<h1> <?php echo str_replace($badword, "***", $text). " ". strlen($text) ?> </h1>
 
 </body>
 </html>
